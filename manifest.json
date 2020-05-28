@@ -1,11 +1,22 @@
 {
-    "name": "Get Hugo Shortcodes",
-    "version": "0.1",
-    "description": "Grab Hugo shortcodes from YouTube, Github, Twitter, Instagram, and Vimeo",
-    "background": {
-        "scripts": ["background.js"],
-        "persistent": false
-      },
-    "manifest_version": 2
+  "name": "Get Hugo Shortcodes",
+  "version": "0.1",
+  "description": "Get Hugo shortcodes for content from YouTube, Github, Twitter, Instagram, and Vimeo",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action" :
+  {
+    "default_icon" : "icon-19.png",
+    "default_title" : "Get the Hugo shortcode"
+  },
+  "permissions" : [
+    "declarativeContent"
+  ],
+  "icons" : {
+    "48" : "icon-48.png",
+    "128" : "icon-128.png"
+  },
+  "manifest_version": 2
 }
-
