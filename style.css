@@ -1,0 +1,51 @@
+html {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+p {
+    margin-block-start: 0em !important;
+    margin-block-end: 0em !important;
+}
+
+body {
+    font-family: "IBM Plex Sans", sans-serif;
+    color: white;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 300px;
+}
+
+.codearea {
+    background-color:#1A1C23;
+    padding: 1rem;
+}
+.messagearea {
+    background-color: #2E303E;
+    color: white;
+    padding: .5rem;
+}
+
+.blue { color: #25B2BC; }
+.purple { color: #B877DB; }
+.red { color: #FAB28E; }
+.orange { color: #F09383; }
+.yellow { color: #FAC29A; }
+
+.italics { font-style: italic; }
+
+.icon {
+    width: .875rem;
+    height: .875rem;
+    margin-right: .5rem;
+}
+
+p {
+    font-size: .875rem;
+    text-align: center;
+}
+
+.shortcode {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1rem;
+}
