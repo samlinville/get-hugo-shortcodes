@@ -1,0 +1,6 @@
+{
+    "name": "Get Hugo Shortcodes",
+    "version": "0.1",
+    "description": "Grab Hugo shortcodes from YouTube, Github, Twitter, Instagram, and Vimeo",
+    "manifest_version": 2
+}
