@@ -2,5 +2,10 @@
     "name": "Get Hugo Shortcodes",
     "version": "0.1",
     "description": "Grab Hugo shortcodes from YouTube, Github, Twitter, Instagram, and Vimeo",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      },
     "manifest_version": 2
 }
+
